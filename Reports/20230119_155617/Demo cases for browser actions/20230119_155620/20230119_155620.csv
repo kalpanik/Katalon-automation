@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo cases for browser actions,Chrome 109.0.0.0,,,2023-01-19 15:56:51,2023-01-19 15:57:45,54.891s,PASSED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations,Chrome 109.0.0.0,,,2023-01-19 15:56:51,2023-01-19 15:57:13,22.274s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-19 15:56:51,2023-01-19 15:56:56,5.000s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-19 15:56:56,2023-01-19 15:56:56,0.194s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-19 15:56:56,2023-01-19 15:56:59,3.036s,PASSED
+refresh(),Chrome 109.0.0.0,,,2023-01-19 15:56:59,2023-01-19 15:57:00,0.369s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-19 15:57:00,2023-01-19 15:57:03,3.014s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 109.0.0.0,,,2023-01-19 15:57:03,2023-01-19 15:57:04,0.888s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-19 15:57:04,2023-01-19 15:57:07,3.019s,PASSED
+back(),Chrome 109.0.0.0,,,2023-01-19 15:57:07,2023-01-19 15:57:07,0.354s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-19 15:57:07,2023-01-19 15:57:10,3.016s,PASSED
+forward(),Chrome 109.0.0.0,,,2023-01-19 15:57:10,2023-01-19 15:57:10,0.319s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-01-19 15:57:10,2023-01-19 15:57:12,2.012s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-19 15:57:12,2023-01-19 15:57:13,0.637s,PASSED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/TC_002 - Advanced browser operations,Chrome 109.0.0.0,,,2023-01-19 15:57:13,2023-01-19 15:57:32,18.623s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-19 15:57:13,2023-01-19 15:57:17,3.874s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-19 15:57:17,2023-01-19 15:57:17,0.207s,PASSED
+getWindowTitle(),Chrome 109.0.0.0,,,2023-01-19 15:57:17,2023-01-19 15:57:18,0.080s,PASSED
+print(getWindowTitle()),Chrome 109.0.0.0,,,2023-01-19 15:57:18,2023-01-19 15:57:18,0.018s,PASSED
+getUrl(),Chrome 109.0.0.0,,,2023-01-19 15:57:18,2023-01-19 15:57:18,0.018s,PASSED
+getWindowIndex(),Chrome 109.0.0.0,,,2023-01-19 15:57:18,2023-01-19 15:57:18,0.004s,PASSED
+currentTab = getWindowIndex(),Chrome 109.0.0.0,,,2023-01-19 15:57:18,2023-01-19 15:57:18,0.017s,PASSED
+driver = getWebDriver(),Chrome 109.0.0.0,,,2023-01-19 15:57:18,2023-01-19 15:57:18,0.016s,PASSED
+js = driver,Chrome 109.0.0.0,,,2023-01-19 15:57:18,2023-01-19 15:57:18,0.019s,PASSED
+"js.executeScript(""window.open();"")",Chrome 109.0.0.0,,,2023-01-19 15:57:18,2023-01-19 15:57:18,0.052s,PASSED
+switchToWindowIndex(currentTab + 1),Chrome 109.0.0.0,,,2023-01-19 15:57:18,2023-01-19 15:57:18,0.042s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Chrome 109.0.0.0,,,2023-01-19 15:57:18,2023-01-19 15:57:19,0.868s,PASSED
+getWindowIndex(),Chrome 109.0.0.0,,,2023-01-19 15:57:19,2023-01-19 15:57:19,0.011s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-19 15:57:19,2023-01-19 15:57:22,3.005s,PASSED
+"switchToWindowTitle(""CURA Healthcare Service"")",Chrome 109.0.0.0,,,2023-01-19 15:57:22,2023-01-19 15:57:22,0.116s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-19 15:57:22,2023-01-19 15:57:25,3.009s,PASSED
+"switchToWindowUrl(""https://www.wikipedia.org/"")",Chrome 109.0.0.0,,,2023-01-19 15:57:25,2023-01-19 15:57:25,0.172s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-19 15:57:25,2023-01-19 15:57:28,3.015s,PASSED
+closeWindowIndex(1),Chrome 109.0.0.0,,,2023-01-19 15:57:28,2023-01-19 15:57:28,0.116s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-01-19 15:57:28,2023-01-19 15:57:31,3.011s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-19 15:57:31,2023-01-19 15:57:32,0.672s,PASSED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/TC_003 Assetions in Katalon,Chrome 109.0.0.0,,,2023-01-19 15:57:32,2023-01-19 15:57:45,13.681s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-19 15:57:32,2023-01-19 15:57:36,4.179s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-19 15:57:36,2023-01-19 15:57:36,0.156s,PASSED
+title = getWindowTitle(),Chrome 109.0.0.0,,,2023-01-19 15:57:36,2023-01-19 15:57:36,0.012s,PASSED
+"verifyMatch(title, ""CURA Healthcare Service"", true)",Chrome 109.0.0.0,,,2023-01-19 15:57:36,2023-01-19 15:57:36,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""), 2)",Chrome 109.0.0.0,,,2023-01-19 15:57:36,2023-01-19 15:57:37,0.374s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 109.0.0.0,,,2023-01-19 15:57:37,2023-01-19 15:57:37,0.454s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/Copyright Text""))",Chrome 109.0.0.0,,,2023-01-19 15:57:37,2023-01-19 15:57:38,0.505s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/Make appointment page heading""), 2)",Chrome 109.0.0.0,,,2023-01-19 15:57:38,2023-01-19 15:57:38,0.562s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 109.0.0.0,,,2023-01-19 15:57:38,2023-01-19 15:57:39,0.793s,PASSED
+"verifyTextPresent(""Please login to make appointment."", false)",Chrome 109.0.0.0,,,2023-01-19 15:57:39,2023-01-19 15:57:39,0.347s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 109.0.0.0,,,2023-01-19 15:57:39,2023-01-19 15:57:40,0.997s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 109.0.0.0,,,2023-01-19 15:57:40,2023-01-19 15:57:41,0.918s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 109.0.0.0,,,2023-01-19 15:57:41,2023-01-19 15:57:42,1.086s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/Make appointment page heading""), ""Make Appointment"")",Chrome 109.0.0.0,,,2023-01-19 15:57:42,2023-01-19 15:57:43,0.378s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-01-19 15:57:43,2023-01-19 15:57:45,2.011s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-19 15:57:45,2023-01-19 15:57:45,0.670s,PASSED

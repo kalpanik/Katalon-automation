@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Browser Actions,Chrome 108.0.0.0,,,2022-12-29 22:19:37,2022-12-29 22:19:54,17.398s,PASSED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Advance browser operations,Chrome 108.0.0.0,,,2022-12-29 22:19:37,2022-12-29 22:19:54,17.079s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 108.0.0.0,,,2022-12-29 22:19:38,2022-12-29 22:19:46,8.369s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-29 22:19:46,2022-12-29 22:19:46,0.221s,PASSED
+print(getUrl()),Chrome 108.0.0.0,,,2022-12-29 22:19:46,2022-12-29 22:19:46,0.095s,PASSED
+getWindowTitle(),Chrome 108.0.0.0,,,2022-12-29 22:19:46,2022-12-29 22:19:47,0.082s,PASSED
+print(getWindowTitle()),Chrome 108.0.0.0,,,2022-12-29 22:19:47,2022-12-29 22:19:47,0.033s,PASSED
+currentTab = getWindowIndex(),Chrome 108.0.0.0,,,2022-12-29 22:19:47,2022-12-29 22:19:47,0.081s,PASSED
+driver = getWebDriver(),Chrome 108.0.0.0,,,2022-12-29 22:19:47,2022-12-29 22:19:47,0.034s,PASSED
+js = driver,Chrome 108.0.0.0,,,2022-12-29 22:19:47,2022-12-29 22:19:47,0.039s,PASSED
+"js.executeScript(""window.open();"")",Chrome 108.0.0.0,,,2022-12-29 22:19:47,2022-12-29 22:19:47,0.071s,PASSED
+switchToWindowIndex(currentTab + 1),Chrome 108.0.0.0,,,2022-12-29 22:19:47,2022-12-29 22:19:47,0.105s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Chrome 108.0.0.0,,,2022-12-29 22:19:47,2022-12-29 22:19:48,0.887s,PASSED
+getWindowTitle(),Chrome 108.0.0.0,,,2022-12-29 22:19:48,2022-12-29 22:19:48,0.015s,PASSED
+getUrl(),Chrome 108.0.0.0,,,2022-12-29 22:19:48,2022-12-29 22:19:48,0.031s,PASSED
+switchToWindowIndex(currentTab),Chrome 108.0.0.0,,,2022-12-29 22:19:48,2022-12-29 22:19:48,0.078s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-29 22:19:48,2022-12-29 22:19:51,3.068s,PASSED
+"switchToWindowTitle(""Wikipedia"")",Chrome 108.0.0.0,,,2022-12-29 22:19:51,2022-12-29 22:19:51,0.192s,PASSED
+delay(3),Chrome 108.0.0.0,,,2022-12-29 22:19:51,2022-12-29 22:19:54,3.006s,PASSED
+"switchToWindowUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 108.0.0.0,,,2022-12-29 22:19:54,2022-12-29 22:19:54,0.187s,PASSED

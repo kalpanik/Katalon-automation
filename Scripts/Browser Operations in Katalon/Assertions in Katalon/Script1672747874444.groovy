@@ -42,7 +42,7 @@ WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_CURA Health
 //verify element visible in a viewport
 //WebUI.verifyElementVisibleInViewport(findTestObject('Page_CURA Healthcare Service/Copyright Text'), 2)
 WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
-
+//verify text present on a webpage
 WebUI.verifyTextPresent('Please login to make appointment.', false)
 
 WebUI.delay(2)
