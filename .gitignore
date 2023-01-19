@@ -3,8 +3,7 @@
 bin
 
 Libs
-Test Cases\Browser Operations in Katalon\Advanced browser operation
-Test Cases\Browser Operations in Katalon\Basic browser operation
+
 output
 
 !output/.gitkeep
