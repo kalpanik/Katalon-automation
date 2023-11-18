@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Browser Actions" time="24.546" tests="1" failures="0" errors="0">
+   <testsuite name="Browser Actions" tests="1" failures="0" errors="0" time="24.546" skipped="0" timestamp="2023-02-02 19:03:34" hostname="KalpanaKukreja - host.docker.internal" id="Test Suites/Browser Actions">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20230202_190321\\Browser Actions\\20230202_190322"/>
+         <property name="logFiles" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20230202_190321\\Browser Actions\\20230202_190322\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-wikipedia page.png"/>
+         <property name="hostName" value="KalpanaKukreja - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Edge Chromium 109"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="9827ea68b1c532e6f5fc174dd9505b1e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Browser Operations in Katalon/Advance browser operations" time="24.167" classname="Test Cases/Browser Operations in Katalon/Advance browser operations" status="PASSED">
+         <system-out><![CDATA[2023-02-02 19:03:35 - [TEST_CASE][PASSED] - Test Cases/Browser Operations in Katalon/Advance browser operations: Test Cases/Browser Operations in Katalon/Advance browser operations
+
+2023-02-02 19:03:35 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-02 19:03:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2023-02-02 19:03:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-02 19:03:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-02 19:03:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-02 19:03:45 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-02 19:03:45 - [TEST_STEP][PASSED] - print(getUrl()): Current window's url is: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-02 19:03:45 - [MESSAGE][PASSED] - Current window's url is: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-02 19:03:45 - [TEST_STEP][PASSED] - getWindowTitle(): Current window's title is: 'CURA Healthcare Service'
+
+2023-02-02 19:03:45 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+2023-02-02 19:03:45 - [TEST_STEP][PASSED] - print(getWindowTitle()): Current window's title is: 'CURA Healthcare Service'
+
+2023-02-02 19:03:45 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+2023-02-02 19:03:45 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 0
+
+2023-02-02 19:03:45 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-02-02 19:03:45 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-02-02 19:03:45 - [TEST_STEP][PASSED] - js = driver: null
+
+2023-02-02 19:03:46 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2023-02-02 19:03:46 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '1'
+
+2023-02-02 19:03:46 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-02-02 19:03:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wikipedia.org/"): Navigate to 'https://www.wikipedia.org/' successfully
+
+2023-02-02 19:03:47 - [MESSAGE][PASSED] - Navigate to 'https://www.wikipedia.org/' successfully
+
+2023-02-02 19:03:47 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("wikipedia page"): Taking screenshot successfully
+
+2023-02-02 19:03:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-02-02 19:03:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-wikipedia page.png]]
+
+2023-02-02 19:03:48 - [TEST_STEP][PASSED] - getWindowTitle(): Current window's title is: 'Wikipedia'
+
+2023-02-02 19:03:49 - [MESSAGE][PASSED] - Current window's title is: 'Wikipedia'
+
+2023-02-02 19:03:49 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://www.wikipedia.org/'
+
+2023-02-02 19:03:49 - [MESSAGE][PASSED] - Current window's url is: 'https://www.wikipedia.org/'
+
+2023-02-02 19:03:49 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab): Switched to window with index: '0'
+
+2023-02-02 19:03:49 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-02-02 19:03:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-02 19:03:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-02 19:03:52 - [TEST_STEP][PASSED] - switchToWindowTitle("Wikipedia"): Switched to window with title: 'Wikipedia'
+
+2023-02-02 19:03:52 - [MESSAGE][PASSED] - Switched to window with title: 'Wikipedia'
+
+2023-02-02 19:03:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-02 19:03:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-02 19:03:55 - [TEST_STEP][PASSED] - switchToWindowUrl("https://katalon-demo-cura.herokuapp.com/"): Switched to window with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-02 19:03:55 - [MESSAGE][PASSED] - Switched to window with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-02 19:03:55 - [TEST_STEP][PASSED] - closeWindowTitle("CURA Healthcare Service"): Window with title: 'CURA Healthcare Service' is closed
+
+2023-02-02 19:03:55 - [MESSAGE][PASSED] - Window with title: 'CURA Healthcare Service' is closed
+
+2023-02-02 19:03:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-02 19:03:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-02 19:03:59 - [TEST_STEP][PASSED] - closeWindowUrl("https://www.wikipedia.org/"): Window with url: 'https://www.wikipedia.org/' is closed
+
+2023-02-02 19:03:59 - [MESSAGE][PASSED] - Window with url: 'https://www.wikipedia.org/' is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-02 19:03:34 - [TEST_SUITE][PASSED] - Browser Actions: Test Cases/Browser Operations in Katalon/Advance browser operations]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

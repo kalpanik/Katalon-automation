@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Browser Actions,,,,2023-02-18 17:54:06,2023-02-18 17:54:07,0.894s,FAILED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Advance browser operations,,,,2023-02-18 17:54:06,2023-02-18 17:54:07,0.611s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",,,,2023-02-18 17:54:07,2023-02-18 17:54:07,0.316s,FAILED

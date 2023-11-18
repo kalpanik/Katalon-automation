@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Browser Actions,Chrome 109.0.0.0,,,2023-02-02 18:36:42,2023-02-02 18:37:53,1m - 11.291s,PASSED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Advance browser operations,Chrome 109.0.0.0,,,2023-02-02 18:36:42,2023-02-02 18:37:08,25.988s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-02-02 18:36:42,2023-02-02 18:36:55,12.800s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-02 18:36:55,2023-02-02 18:36:55,0.213s,PASSED
+print(getUrl()),Chrome 109.0.0.0,,,2023-02-02 18:36:55,2023-02-02 18:36:55,0.067s,PASSED
+getWindowTitle(),Chrome 109.0.0.0,,,2023-02-02 18:36:55,2023-02-02 18:36:55,0.050s,PASSED
+print(getWindowTitle()),Chrome 109.0.0.0,,,2023-02-02 18:36:55,2023-02-02 18:36:55,0.035s,PASSED
+currentTab = getWindowIndex(),Chrome 109.0.0.0,,,2023-02-02 18:36:55,2023-02-02 18:36:55,0.084s,PASSED
+driver = getWebDriver(),Chrome 109.0.0.0,,,2023-02-02 18:36:55,2023-02-02 18:36:55,0.022s,PASSED
+js = driver,Chrome 109.0.0.0,,,2023-02-02 18:36:55,2023-02-02 18:36:55,0.028s,PASSED
+"js.executeScript(""window.open();"")",Chrome 109.0.0.0,,,2023-02-02 18:36:55,2023-02-02 18:36:56,0.169s,PASSED
+switchToWindowIndex(currentTab + 1),Chrome 109.0.0.0,,,2023-02-02 18:36:56,2023-02-02 18:36:56,0.083s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Chrome 109.0.0.0,,,2023-02-02 18:36:56,2023-02-02 18:36:58,2.069s,PASSED
+getWindowTitle(),Chrome 109.0.0.0,,,2023-02-02 18:36:58,2023-02-02 18:36:58,0.033s,PASSED
+getUrl(),Chrome 109.0.0.0,,,2023-02-02 18:36:58,2023-02-02 18:36:58,0.035s,PASSED
+switchToWindowIndex(currentTab),Chrome 109.0.0.0,,,2023-02-02 18:36:58,2023-02-02 18:36:58,0.078s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:36:58,2023-02-02 18:37:01,3.066s,PASSED
+"switchToWindowTitle(""Wikipedia"")",Chrome 109.0.0.0,,,2023-02-02 18:37:01,2023-02-02 18:37:01,0.189s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:37:01,2023-02-02 18:37:04,3.017s,PASSED
+"switchToWindowUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-02-02 18:37:04,2023-02-02 18:37:04,0.292s,PASSED
+"closeWindowTitle(""CURA Healthcare Service"")",Chrome 109.0.0.0,,,2023-02-02 18:37:04,2023-02-02 18:37:05,0.162s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:37:05,2023-02-02 18:37:08,3.011s,PASSED
+"closeWindowUrl(""https://www.wikipedia.org/"")",Chrome 109.0.0.0,,,2023-02-02 18:37:08,2023-02-02 18:37:08,0.215s,PASSED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Basic browser Operations,Chrome 109.0.0.0,"This test case deals with below operations 
+Open
+Navigate to url
+Maximize browser
+Refresh
+Back
+Forward
+Delay
+Close browser",,2023-02-02 18:37:08,2023-02-02 18:37:38,29.685s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-02 18:37:08,2023-02-02 18:37:11,2.195s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-02-02 18:37:11,2023-02-02 18:37:16,5.466s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:37:16,2023-02-02 18:37:19,3.008s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-02 18:37:19,2023-02-02 18:37:19,0.176s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:37:19,2023-02-02 18:37:22,3.016s,PASSED
+refresh(),Chrome 109.0.0.0,,,2023-02-02 18:37:22,2023-02-02 18:37:23,0.400s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:37:23,2023-02-02 18:37:26,3.015s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 109.0.0.0,,,2023-02-02 18:37:26,2023-02-02 18:37:27,0.927s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:37:27,2023-02-02 18:37:30,3.016s,PASSED
+back(),Chrome 109.0.0.0,,,2023-02-02 18:37:30,2023-02-02 18:37:30,0.666s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:37:30,2023-02-02 18:37:33,3.014s,PASSED
+forward(),Chrome 109.0.0.0,,,2023-02-02 18:37:33,2023-02-02 18:37:34,0.530s,PASSED
+delay(3),Chrome 109.0.0.0,,,2023-02-02 18:37:34,2023-02-02 18:37:37,3.010s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-02 18:37:37,2023-02-02 18:37:38,0.690s,PASSED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Assertions in Katalon,Chrome 109.0.0.0,,,2023-02-02 18:37:38,2023-02-02 18:37:53,15.334s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-02-02 18:37:38,2023-02-02 18:37:43,5.067s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-02 18:37:43,2023-02-02 18:37:43,0.172s,PASSED
+title = getWindowTitle(),Chrome 109.0.0.0,,,2023-02-02 18:37:43,2023-02-02 18:37:43,0.030s,PASSED
+"verifyMatch(title, ""CURA Healthcare Service"", true)",Chrome 109.0.0.0,,,2023-02-02 18:37:43,2023-02-02 18:37:43,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""), 2)",Chrome 109.0.0.0,,,2023-02-02 18:37:43,2023-02-02 18:37:44,0.515s,PASSED
+"verifyElementClickable(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 109.0.0.0,,,2023-02-02 18:37:44,2023-02-02 18:37:44,0.441s,PASSED
+"verifyElementVisible(findTestObject(""Page_CURA Healthcare Service/Copyright Text""))",Chrome 109.0.0.0,,,2023-02-02 18:37:44,2023-02-02 18:37:44,0.483s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/Make appointment page heading""), 2)",Chrome 109.0.0.0,,,2023-02-02 18:37:44,2023-02-02 18:37:45,0.663s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 109.0.0.0,,,2023-02-02 18:37:45,2023-02-02 18:37:46,0.935s,PASSED
+"verifyTextPresent(""Please login to make appointment."", false)",Chrome 109.0.0.0,,,2023-02-02 18:37:46,2023-02-02 18:37:46,0.360s,PASSED
+delay(2),Chrome 109.0.0.0,,,2023-02-02 18:37:46,2023-02-02 18:37:48,2.016s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 109.0.0.0,,,2023-02-02 18:37:48,2023-02-02 18:37:49,1.009s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 109.0.0.0,,,2023-02-02 18:37:49,2023-02-02 18:37:50,0.935s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 109.0.0.0,,,2023-02-02 18:37:50,2023-02-02 18:37:52,1.446s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/Make appointment page heading""), ""Make Appointment"")",Chrome 109.0.0.0,,,2023-02-02 18:37:52,2023-02-02 18:37:52,0.383s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-02-02 18:37:52,2023-02-02 18:37:53,0.695s,PASSED

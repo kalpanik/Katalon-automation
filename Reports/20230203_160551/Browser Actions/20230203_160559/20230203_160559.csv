@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Browser Actions,Edge Chromium 109,,,2023-02-03 16:06:21,2023-02-03 16:06:43,22.568s,PASSED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Advance browser operations,Edge Chromium 109,,,2023-02-03 16:06:21,2023-02-03 16:06:43,22.327s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 109,,,2023-02-03 16:06:21,2023-02-03 16:06:28,6.326s,PASSED
+maximizeWindow(),Edge Chromium 109,,,2023-02-03 16:06:28,2023-02-03 16:06:28,0.208s,PASSED
+print(getUrl()),Edge Chromium 109,,,2023-02-03 16:06:28,2023-02-03 16:06:28,0.036s,PASSED
+getWindowTitle(),Edge Chromium 109,,,2023-02-03 16:06:28,2023-02-03 16:06:28,0.027s,PASSED
+print(getWindowTitle()),Edge Chromium 109,,,2023-02-03 16:06:28,2023-02-03 16:06:28,0.015s,PASSED
+currentTab = getWindowIndex(),Edge Chromium 109,,,2023-02-03 16:06:28,2023-02-03 16:06:28,0.027s,PASSED
+driver = getWebDriver(),Edge Chromium 109,,,2023-02-03 16:06:28,2023-02-03 16:06:28,0.011s,PASSED
+js = driver,Edge Chromium 109,,,2023-02-03 16:06:28,2023-02-03 16:06:28,0.010s,PASSED
+"js.executeScript(""window.open();"")",Edge Chromium 109,,,2023-02-03 16:06:28,2023-02-03 16:06:29,0.579s,PASSED
+switchToWindowIndex(currentTab + 1),Edge Chromium 109,,,2023-02-03 16:06:29,2023-02-03 16:06:29,0.066s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Edge Chromium 109,,,2023-02-03 16:06:29,2023-02-03 16:06:30,1.743s,PASSED
+"takeScreenshotAsCheckpoint(""wikipedia page"")",Edge Chromium 109,,,2023-02-03 16:06:30,2023-02-03 16:06:32,1.543s,PASSED
+getWindowTitle(),Edge Chromium 109,,,2023-02-03 16:06:32,2023-02-03 16:06:32,0.025s,PASSED
+getUrl(),Edge Chromium 109,,,2023-02-03 16:06:32,2023-02-03 16:06:32,0.025s,PASSED
+switchToWindowIndex(currentTab),Edge Chromium 109,,,2023-02-03 16:06:32,2023-02-03 16:06:32,0.171s,PASSED
+delay(3),Edge Chromium 109,,,2023-02-03 16:06:32,2023-02-03 16:06:35,3.066s,PASSED
+"switchToWindowTitle(""Wikipedia"")",Edge Chromium 109,,,2023-02-03 16:06:35,2023-02-03 16:06:35,0.272s,PASSED
+delay(3),Edge Chromium 109,,,2023-02-03 16:06:35,2023-02-03 16:06:38,3.013s,PASSED
+"switchToWindowUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 109,,,2023-02-03 16:06:38,2023-02-03 16:06:39,0.271s,PASSED
+"closeWindowTitle(""CURA Healthcare Service"")",Edge Chromium 109,,,2023-02-03 16:06:39,2023-02-03 16:06:40,1.375s,PASSED
+delay(3),Edge Chromium 109,,,2023-02-03 16:06:40,2023-02-03 16:06:43,3.009s,PASSED
+"closeWindowUrl(""https://www.wikipedia.org/"")",Edge Chromium 109,,,2023-02-03 16:06:43,2023-02-03 16:06:43,0.181s,PASSED

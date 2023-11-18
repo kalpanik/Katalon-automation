@@ -17,16 +17,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Browser Operations in Katalon/Advance browser operations</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>20f8f214-e8b0-4327-8bce-0ec4ffc2ab0d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Browser Operations in Katalon/Basic browser Operations</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e0c3912a-84bf-48f5-935e-c9fda3387206</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Browser Operations in Katalon/Assertions in Katalon</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

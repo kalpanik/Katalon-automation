@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Browser Actions,,,,2023-01-20 11:35:06,2023-01-20 11:35:15,8.848s,FAILED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Advance browser operations,,,,2023-01-20 11:35:06,2023-01-20 11:35:10,3.814s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",,,,2023-01-20 11:35:07,2023-01-20 11:35:10,3.241s,FAILED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Basic browser Operations,,"This test case deals with below operations 
+Open
+Navigate to url
+Maximize browser
+Refresh
+Back
+Forward
+Delay
+Close browser",,2023-01-20 11:35:10,2023-01-20 11:35:13,2.216s,FAILED
+"openBrowser("""")",,,,2023-01-20 11:35:11,2023-01-20 11:35:13,1.906s,FAILED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Assertions in Katalon,,,,2023-01-20 11:35:13,2023-01-20 11:35:15,2.473s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",,,,2023-01-20 11:35:13,2023-01-20 11:35:15,2.067s,FAILED

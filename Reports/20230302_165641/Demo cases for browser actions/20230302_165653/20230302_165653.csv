@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo cases for browser actions,,,,2023-03-02 16:58:57,2023-03-02 16:58:58,1.569s,FAILED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations,,,,2023-03-02 16:58:57,2023-03-02 16:58:58,0.744s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",,,,2023-03-02 16:58:57,2023-03-02 16:58:58,0.465s,FAILED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/TC_002 - Advanced browser operations,,,,2023-03-02 16:58:58,2023-03-02 16:58:58,0.295s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",,,,2023-03-02 16:58:58,2023-03-02 16:58:58,0.029s,FAILED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/TC_003 Assetions in Katalon,,,,2023-03-02 16:58:58,2023-03-02 16:58:58,0.217s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",,,,2023-03-02 16:58:58,2023-03-02 16:58:58,0.023s,FAILED

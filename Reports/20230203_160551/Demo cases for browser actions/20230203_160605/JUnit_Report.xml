@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo cases for browser actions" time="59.969" tests="3" failures="0" errors="0">
+   <testsuite name="Demo cases for browser actions" tests="3" failures="0" errors="0" time="59.969" skipped="0" timestamp="2023-02-03 16:06:42" hostname="KalpanaKukreja - host.docker.internal" id="Test Suites/Demo cases for browser actions">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20230203_160551\\Demo cases for browser actions\\20230203_160605"/>
+         <property name="logFiles" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20230203_160551\\Demo cases for browser actions\\20230203_160605\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KalpanaKukreja - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.12"/>
+         <property name="sessionId" value="a565c0184c6cc4cb04dc34dd1322620c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations" time="25.445" classname="Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations" status="PASSED">
+         <system-out><![CDATA[2023-02-03 16:06:42 - [TEST_CASE][PASSED] - Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations: Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations
+
+2023-02-03 16:06:43 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-03 16:06:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-03 16:06:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-03 16:06:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-03 16:06:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-03 16:06:51 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-03 16:06:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-03 16:06:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-03 16:06:54 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-02-03 16:06:54 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-02-03 16:06:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-03 16:06:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-03 16:06:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-02-03 16:06:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-02-03 16:06:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-03 16:07:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-03 16:07:01 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2023-02-03 16:07:02 - [MESSAGE][PASSED] - Navigate back successfully
+
+2023-02-03 16:07:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-03 16:07:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-03 16:07:05 - [TEST_STEP][PASSED] - forward(): Navigate forward successfully
+
+2023-02-03 16:07:05 - [MESSAGE][PASSED] - Navigate forward successfully
+
+2023-02-03 16:07:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-02-03 16:07:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-02-03 16:07:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-03 16:07:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browser Operations in Katalon/TC_002 - Advanced browser operations" time="19.732" classname="Test Cases/Browser Operations in Katalon/TC_002 - Advanced browser operations" status="PASSED">
+         <system-out><![CDATA[2023-02-03 16:07:08 - [TEST_CASE][PASSED] - Test Cases/Browser Operations in Katalon/TC_002 - Advanced browser operations: Test Cases/Browser Operations in Katalon/TC_002 - Advanced browser operations
+
+2023-02-03 16:07:08 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-03 16:07:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-03 16:07:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-03 16:07:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-03 16:07:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-03 16:07:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-03 16:07:13 - [TEST_STEP][PASSED] - getWindowTitle(): Current window's title is: 'CURA Healthcare Service'
+
+2023-02-03 16:07:13 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+2023-02-03 16:07:13 - [TEST_STEP][PASSED] - print(getWindowTitle()): Current window's title is: 'CURA Healthcare Service'
+
+2023-02-03 16:07:13 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+2023-02-03 16:07:13 - [TEST_STEP][PASSED] - getUrl(): Current window's url is: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-03 16:07:13 - [MESSAGE][PASSED] - Current window's url is: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-03 16:07:13 - [TEST_STEP][PASSED] - getWindowIndex(): Current window's index is: 0
+
+2023-02-03 16:07:13 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-02-03 16:07:13 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 0
+
+2023-02-03 16:07:13 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-02-03 16:07:13 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-02-03 16:07:13 - [TEST_STEP][PASSED] - js = driver: null
+
+2023-02-03 16:07:13 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2023-02-03 16:07:13 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '1'
+
+2023-02-03 16:07:13 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-02-03 16:07:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wikipedia.org/"): Navigate to 'https://www.wikipedia.org/' successfully
+
+2023-02-03 16:07:14 - [MESSAGE][PASSED] - Navigate to 'https://www.wikipedia.org/' successfully
+
+2023-02-03 16:07:14 - [TEST_STEP][PASSED] - getWindowIndex(): Current window's index is: 1
+
+2023-02-03 16:07:14 - [MESSAGE][PASSED] - Current window's index is: 1
+
+2023-02-03 16:07:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-03 16:07:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-03 16:07:17 - [TEST_STEP][PASSED] - switchToWindowTitle("CURA Healthcare Service"): Switched to window with title: 'CURA Healthcare Service'
+
+2023-02-03 16:07:18 - [MESSAGE][PASSED] - Switched to window with title: 'CURA Healthcare Service'
+
+2023-02-03 16:07:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-03 16:07:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-03 16:07:21 - [TEST_STEP][PASSED] - switchToWindowUrl("https://www.wikipedia.org/"): Switched to window with url: 'https://www.wikipedia.org/'
+
+2023-02-03 16:07:21 - [MESSAGE][PASSED] - Switched to window with url: 'https://www.wikipedia.org/'
+
+2023-02-03 16:07:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-03 16:07:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-03 16:07:24 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2023-02-03 16:07:24 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2023-02-03 16:07:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-02-03 16:07:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-02-03 16:07:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-03 16:07:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Browser Operations in Katalon/TC_003 Assetions in Katalon" time="14.46" classname="Test Cases/Browser Operations in Katalon/TC_003 Assetions in Katalon" status="PASSED">
+         <system-out><![CDATA[2023-02-03 16:07:28 - [TEST_CASE][PASSED] - Test Cases/Browser Operations in Katalon/TC_003 Assetions in Katalon: Test Cases/Browser Operations in Katalon/TC_003 Assetions in Katalon
+
+2023-02-03 16:07:28 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-03 16:07:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-03 16:07:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-03 16:07:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-02-03 16:07:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-03 16:07:33 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-03 16:07:33 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'CURA Healthcare Service'
+
+2023-02-03 16:07:33 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+2023-02-03 16:07:33 - [TEST_STEP][PASSED] - verifyMatch(title, "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+2023-02-03 16:07:33 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+2023-02-03 16:07:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"), 2): Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+2023-02-03 16:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+2023-02-03 16:07:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+2023-02-03 16:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+2023-02-03 16:07:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_CURA Healthcare Service/Copyright Text")): Object 'Object Repository/Page_CURA Healthcare Service/Copyright Text' is visible
+
+2023-02-03 16:07:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/Copyright Text' is visible
+
+2023-02-03 16:07:34 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/Make appointment page heading"), 2): Web element with id: 'Object Repository/Page_CURA Healthcare Service/Make appointment page heading' located by 'By.xpath: //*[@id="appointment"]/div/div/div/h2' is not present after '2' second(s)
+
+2023-02-03 16:07:35 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_CURA Healthcare Service/Make appointment page heading' located by 'By.xpath: //*[@id="appointment"]/div/div/div/h2' is not present after '2' second(s)
+
+2023-02-03 16:07:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-02-03 16:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-02-03 16:07:36 - [TEST_STEP][PASSED] - verifyTextPresent("Please login to make appointment.", false): Text 'Please login to make appointment.' is present on page 
+
+2023-02-03 16:07:36 - [MESSAGE][PASSED] - Text 'Please login to make appointment.' is present on page 
+
+2023-02-03 16:07:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-02-03 16:07:37 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-02-03 16:07:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-02-03 16:07:38 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-02-03 16:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-02-03 16:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-02-03 16:07:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/Make appointment page heading"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/Make appointment page heading' are matched.
+
+2023-02-03 16:07:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/Make appointment page heading' are matched.
+
+2023-02-03 16:07:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-02-03 16:07:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-02-03 16:07:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-03 16:07:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-03 16:06:42 - [TEST_SUITE][PASSED] - Demo cases for browser actions: Test Cases/Browser Operations in Katalon/TC_003 Assetions in Katalon]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

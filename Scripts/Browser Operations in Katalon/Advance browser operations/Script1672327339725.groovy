@@ -43,6 +43,7 @@ js.executeScript('window.open();')
 WebUI.switchToWindowIndex(currentTab + 1)
 
 WebUI.navigateToUrl('https://www.wikipedia.org/')
+WebUI.takeScreenshotAsCheckpoint('wikipedia page')
 
 WebUI.getWindowTitle()
 
