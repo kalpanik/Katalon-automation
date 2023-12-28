@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Advanced browser operations,,,,04-12-2023 01:01:54,04-12-2023 01:01:55,0.543s,ERROR
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Advance browser operations,,,,04-12-2023 01:01:54,04-12-2023 01:01:55,0.293s,ERROR

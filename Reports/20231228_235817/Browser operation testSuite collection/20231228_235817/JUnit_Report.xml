@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Browser operation testSuite collection" time="173.913" tests="2" failures="0" errors="0">
+   <testsuite name="Basic browser operations" tests="1" failures="0" errors="0" time="59.944" skipped="0" timestamp="2023-12-28 23:58:41" hostname="KalpanaKukreja - RC-IND-4BYDRG3" id="Test Suites/Basic browser operations">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20231228_235817\\Basic browser operations\\20231228_235820"/>
+         <property name="logFiles" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20231228_235817\\Basic browser operations\\20231228_235820\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KalpanaKukreja - RC-IND-4BYDRG3"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:62280&quot;
+  },
+  &quot;requestId&quot;: &quot;214c5226-a2b4-42b0-b175-e7713d9106db&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;117.0.0.0&quot;,
+  &quot;fedcm:accounts&quot;: true,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;userId&quot;: 579468,
+    &quot;organizationId&quot;: &quot;167916&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;117.0.5938.22 (23382a5a87b8063d9189c9a52564d2b0edc76e1c-refs/branch-heads/5938@{#447})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir4916_590444927&quot;
+  },
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;***:loadExtension&quot;: [
+    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;
+  ],
+  &quot;version&quot;: &quot;117&quot;,
+  &quot;se:cdp&quot;: &quot;ws://172.48.94.113:4444/session/607b35b4cf5d7a640c6af8d6b321001c/se/cdp&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;webauthn:extension:minPinLength&quot;: true,
+  &quot;webdriver.remote.sessionid&quot;: &quot;607b35b4cf5d7a640c6af8d6b321001c&quot;,
+  &quot;webauthn:extension:prf&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 117.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.221"/>
+         <property name="sessionId" value="607b35b4cf5d7a640c6af8d6b321001c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations" time="59.572" classname="Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations" status="PASSED">
+         <system-out><![CDATA[2023-12-28 23:58:41 - [TEST_CASE][PASSED] - Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations: Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations
+
+2023-12-28 23:58:42 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-12-28 23:58:42 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-12-28 23:58:42 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-12-28 23:58:42 - [MESSAGE][INFO] - User set preference: ['browserVersion', '117']
+
+2023-12-28 23:58:42 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=167916, tunnelId=, usingTunnel=false}']
+
+2023-12-28 23:58:42 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-12-28 23:58:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-28 23:59:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-12-28 23:59:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-12-28 23:59:20 - [MESSAGE][PASSED] - Current window maximized
+
+2023-12-28 23:59:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-28 23:59:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-28 23:59:23 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-12-28 23:59:24 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-12-28 23:59:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-28 23:59:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-28 23:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-12-28 23:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-12-28 23:59:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-28 23:59:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-28 23:59:33 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2023-12-28 23:59:34 - [MESSAGE][PASSED] - Navigate back successfully
+
+2023-12-28 23:59:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-28 23:59:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-28 23:59:37 - [TEST_STEP][PASSED] - forward(): Navigate forward successfully
+
+2023-12-28 23:59:37 - [MESSAGE][PASSED] - Navigate forward successfully
+
+2023-12-28 23:59:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-12-28 23:59:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-12-28 23:59:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-28 23:59:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-28 23:58:41 - [TEST_SUITE][PASSED] - Basic browser operations: Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Basic browser operations" tests="1" failures="0" errors="0" time="71.665" skipped="0" timestamp="2023-12-29 00:00:03" hostname="KalpanaKukreja - RC-IND-4BYDRG3" id="Test Suites/Basic browser operations">
+      <properties>
+         <property name="deviceName" value="Samsung Samsung Galaxy Tab S9 Ultra"/>
+         <property name="devicePlatform" value="ANDROID"/>
+         <property name="logFolder" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20231228_235817\\Basic browser operations\\20231228_235824"/>
+         <property name="logFiles" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20231228_235817\\Basic browser operations\\20231228_235824\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KalpanaKukreja - RC-IND-4BYDRG3"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;appPackage&quot;: &quot;com.android.chrome&quot;,
+  &quot;chromedriverPorts&quot;: [
+    [
+      3220,
+      3230
+    ]
+  ],
+  &quot;testobject_test_report_url&quot;: &quot;https://app.*********.com/tests/00070cb86a45471bb334aceb077ff27d&quot;,
+  &quot;deviceName&quot;: &quot;Samsung Samsung Galaxy Tab S9 Ultra&quot;,
+  &quot;adbHost&quot;: &quot;172.20.0.169&quot;,
+  &quot;***:options&quot;: {
+    &quot;name&quot;: &quot;TestCloud Automated Test Session &quot;,
+    &quot;build&quot;: &quot;TestCloud Automated Test Session &quot;
+  },
+  &quot;browserVersion&quot;: &quot;120.0.0.0&quot;,
+  &quot;webStorageEnabled&quot;: false,
+  &quot;browserName&quot;: &quot;Chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;remoteAppsCacheLimit&quot;: 0,
+  &quot;systemPort&quot;: 21105,
+  &quot;adbPort&quot;: 17105,
+  &quot;usedCachedDevice&quot;: false,
+  &quot;version&quot;: &quot;latest&quot;,
+  &quot;appActivity&quot;: &quot;com.google.android.apps.chrome.Main&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;chromedriverChromeMappingFile&quot;: &quot;/root/.testobject_devices/work/chromedriver-mapping.json&quot;,
+  &quot;appiumData&quot;: {
+    &quot;appiumVersion&quot;: &quot;1.22.2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;
+  },
+  &quot;pixelRatio&quot;: 2,
+  &quot;deviceScreenDensity&quot;: 320,
+  &quot;appium:deviceName&quot;: &quot;Samsung_Galaxy_Tab_S9_Ultra_real_us&quot;,
+  &quot;suppressKillServer&quot;: true,
+  &quot;testobject_user_id&quot;: &quot;coty_katalon&quot;,
+  &quot;statBarHeight&quot;: 48,
+  &quot;testobject_device_name&quot;: &quot;Samsung Galaxy Tab S9 Ultra&quot;,
+  &quot;viewportRect&quot;: {
+    &quot;left&quot;: 0,
+    &quot;top&quot;: 48,
+    &quot;width&quot;: 2960,
+    &quot;height&quot;: 1676
+  },
+  &quot;testobject_device_session_id&quot;: &quot;55a4ef78-a61c-48b5-a9fc-aa4977832748&quot;,
+  &quot;uiautomator2ServerInstallTimeout&quot;: 60000,
+  &quot;platform&quot;: &quot;ANDROID&quot;,
+  &quot;deviceUDID&quot;: &quot;R52W705Z17H&quot;,
+  &quot;jobUuid&quot;: &quot;00070cb86a45471bb334aceb077ff27d&quot;,
+  &quot;desired&quot;: {
+    &quot;proxy&quot;: {
+      &quot;proxyType&quot;: &quot;direct&quot;
+    },
+    &quot;browserVersion&quot;: &quot;latest&quot;,
+    &quot;browserName&quot;: &quot;Chrome&quot;,
+    &quot;katalon:option&quot;: {
+      &quot;unlimitedExecutionMinutes&quot;: true,
+      &quot;deviceVersion&quot;: &quot;13&quot;,
+      &quot;deviceId&quot;: &quot;samsung_galaxy_tab_s9_ultra&quot;,
+      &quot;userId&quot;: 579468,
+      &quot;organizationId&quot;: &quot;167916&quot;,
+      &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+      &quot;runFromTestCloud&quot;: true,
+      &quot;usingTunnel&quot;: false
+    },
+    &quot;platformName&quot;: &quot;Android&quot;,
+    &quot;***:options&quot;: {
+      &quot;name&quot;: &quot;TestCloud Automated Test Session &quot;,
+      &quot;build&quot;: &quot;TestCloud Automated Test Session &quot;
+    },
+    &quot;***:chromeOptions&quot;: {
+      &quot;androidDevToolsPort&quot;: 22305
+    },
+    &quot;remoteAdbHost&quot;: &quot;172.20.0.169&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;chromedriverPorts&quot;: [
+      [
+        3220,
+        3230
+      ]
+    ],
+    &quot;chromedriverChromeMappingFile&quot;: &quot;/root/.testobject_devices/work/chromedriver-mapping.json&quot;,
+    &quot;adbPort&quot;: 17105,
+    &quot;uiautomator2ServerInstallTimeout&quot;: 60000,
+    &quot;chromedriverExecutableDir&quot;: &quot;/root/.testobject_devices/work/chromedrivers&quot;,
+    &quot;remoteAppsCacheLimit&quot;: 0,
+    &quot;adbHost&quot;: &quot;172.20.0.169&quot;,
+    &quot;systemPort&quot;: 21105,
+    &quot;chromeOptions&quot;: {
+      &quot;w3c&quot;: true
+    },
+    &quot;deviceName&quot;: &quot;Samsung_Galaxy_Tab_S9_Ultra_real_us&quot;
+  },
+  &quot;requestId&quot;: &quot;0c0ac2f6-2da5-4d87-aeb4-a180e5f72f98&quot;,
+  &quot;platformVersion&quot;: &quot;13&quot;,
+  &quot;takesScreenshot&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;deviceVersion&quot;: &quot;13&quot;,
+    &quot;deviceId&quot;: &quot;samsung_galaxy_tab_s9_ultra&quot;,
+    &quot;userId&quot;: 579468,
+    &quot;organizationId&quot;: &quot;167916&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;deviceApiLevel&quot;: 33,
+  &quot;deviceManufacturer&quot;: &quot;samsung&quot;,
+  &quot;platformName&quot;: &quot;ANDROID&quot;,
+  &quot;chromedriverExecutableDir&quot;: &quot;/root/.testobject_devices/work/chromedrivers&quot;,
+  &quot;remoteAdbHost&quot;: &quot;172.20.0.169&quot;,
+  &quot;deviceContextId&quot;: &quot;29530512-522a-4b3a-b4d2-c79dd8960533&quot;,
+  &quot;deviceScreenSize&quot;: &quot;2960x1848&quot;,
+  &quot;networkConnectionEnabled&quot;: true,
+  &quot;warnings&quot;: {},
+  &quot;testobject_device&quot;: &quot;Samsung_Galaxy_Tab_S9_Ultra_real_us&quot;,
+  &quot;databaseEnabled&quot;: false,
+  &quot;se:cdp&quot;: &quot;ws://172.48.62.105:4444/session/5352e9a2-f62a-4407-986f-cb3de7dcbf4b/se/cdp&quot;,
+  &quot;testobject_test_report_api_url&quot;: &quot;https://***.*********.com/v1/rdc/jobs/00070cb86a45471bb334aceb077ff27d&quot;,
+  &quot;locationContextEnabled&quot;: false,
+  &quot;***:chromeOptions&quot;: {
+    &quot;androidDevToolsPort&quot;: 22305
+  },
+  &quot;deviceModel&quot;: &quot;SM-X910&quot;,
+  &quot;chromeOptions&quot;: {
+    &quot;w3c&quot;: true
+  }
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Android"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.221"/>
+         <property name="sessionId" value="5352e9a2-f62a-4407-986f-cb3de7dcbf4b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations" time="71.426" classname="Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations" status="PASSED">
+         <system-out><![CDATA[2023-12-29 00:00:03 - [TEST_CASE][PASSED] - Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations: Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations
+
+2023-12-29 00:00:03 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-12-29 00:00:04 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-12-29 00:00:04 - [MESSAGE][INFO] - User set preference: ['platformName', 'Android']
+
+2023-12-29 00:00:04 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest']
+
+2023-12-29 00:00:04 - [MESSAGE][INFO] - User set preference: ['deviceName', 'Samsung Samsung Galaxy Tab S9 Ultra']
+
+2023-12-29 00:00:04 - [MESSAGE][INFO] - User set preference: ['platformVersion', '13']
+
+2023-12-29 00:00:04 - [MESSAGE][INFO] - User set preference: ['deviceId', 'samsung_galaxy_tab_s9_ultra']
+
+2023-12-29 00:00:04 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=167916, tunnelId=, deviceVersion=13, deviceId=samsung_galaxy_tab_s9_ultra, usingTunnel=false}']
+
+2023-12-29 00:00:04 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-12-29 00:00:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-29 00:00:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-12-29 00:00:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-12-29 00:00:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-12-29 00:00:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-29 00:00:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-29 00:00:55 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-12-29 00:00:56 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-12-29 00:00:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-29 00:00:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-29 00:00:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-12-29 00:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-12-29 00:01:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-29 00:01:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-29 00:01:05 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2023-12-29 00:01:07 - [MESSAGE][PASSED] - Navigate back successfully
+
+2023-12-29 00:01:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-12-29 00:01:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-12-29 00:01:10 - [TEST_STEP][PASSED] - forward(): Navigate forward successfully
+
+2023-12-29 00:01:11 - [MESSAGE][PASSED] - Navigate forward successfully
+
+2023-12-29 00:01:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-12-29 00:01:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-12-29 00:01:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-29 00:01:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-29 00:00:03 - [TEST_SUITE][PASSED] - Basic browser operations: Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Assertions in Katalon" time="80.391" tests="1" failures="0" errors="0">
+   <testsuite name="Assertions in Katalon" tests="1" failures="0" errors="0" time="80.391" skipped="0" timestamp="2023-12-15 00:53:01" hostname="KalpanaKukreja - RC-IND-4BYDRG3" id="Test Suites/Assertions in Katalon">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20231215_005251\\Assertions in Katalon\\20231215_005253"/>
+         <property name="logFiles" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20231215_005251\\Assertions in Katalon\\20231215_005253\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KalpanaKukreja - RC-IND-4BYDRG3"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:57560&quot;
+  },
+  &quot;requestId&quot;: &quot;4f36ef01-07de-419d-914f-03f19a85c17f&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;119.0.0.0&quot;,
+  &quot;fedcm:accounts&quot;: true,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;userId&quot;: 579468,
+    &quot;organizationId&quot;: &quot;167916&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;119.0.6045.9 (c7ec5863fa5c563b4b9057148aa2ae3f09f7994e-refs/branch-heads/6045@{#87})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir2448_1729551184&quot;
+  },
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;***:loadExtension&quot;: [
+    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;
+  ],
+  &quot;version&quot;: &quot;119&quot;,
+  &quot;se:cdp&quot;: &quot;ws://172.48.66.56:4444/session/2ef083290bdc1a5f3a83c415822c7f64/se/cdp&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;webauthn:extension:minPinLength&quot;: true,
+  &quot;webdriver.remote.sessionid&quot;: &quot;2ef083290bdc1a5f3a83c415822c7f64&quot;,
+  &quot;webauthn:extension:prf&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.221"/>
+         <property name="sessionId" value="2ef083290bdc1a5f3a83c415822c7f64"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Browser Operations in Katalon/Assertions in Katalon" time="80.01" classname="Test Cases/Browser Operations in Katalon/Assertions in Katalon" status="PASSED">
+         <system-out><![CDATA[2023-12-15 00:53:02 - [TEST_CASE][PASSED] - Test Cases/Browser Operations in Katalon/Assertions in Katalon: Test Cases/Browser Operations in Katalon/Assertions in Katalon
+
+2023-12-15 00:53:02 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-12-15 00:53:03 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-12-15 00:53:03 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-12-15 00:53:03 - [MESSAGE][INFO] - User set preference: ['browserVersion', '119']
+
+2023-12-15 00:53:03 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=167916, tunnelId=, usingTunnel=false}']
+
+2023-12-15 00:53:03 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-12-15 00:53:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-12-15 00:53:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-12-15 00:53:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-12-15 00:53:40 - [MESSAGE][PASSED] - Current window maximized
+
+2023-12-15 00:53:40 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'CURA Healthcare Service'
+
+2023-12-15 00:53:41 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+2023-12-15 00:53:41 - [TEST_STEP][PASSED] - verifyMatch(title, "CURA Healthcare Service", true): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+2023-12-15 00:53:41 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched  using regular expression
+
+2023-12-15 00:53:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/a_Make Appointment"), 2): Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+2023-12-15 00:53:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+2023-12-15 00:53:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+2023-12-15 00:53:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+2023-12-15 00:53:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CURA Healthcare Service/Copyright Text")): Object 'Object Repository/Page_CURA Healthcare Service/Copyright Text' is visible
+
+2023-12-15 00:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/Copyright Text' is visible
+
+2023-12-15 00:53:49 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/Make appointment page heading"), 2): Web element with id: 'Object Repository/Page_CURA Healthcare Service/Make appointment page heading' located by 'By.xpath: //*[@id="appointment"]/div/div/div/h2' is not present after '2' second(s)
+
+2023-12-15 00:53:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_CURA Healthcare Service/Make appointment page heading' located by 'By.xpath: //*[@id="appointment"]/div/div/div/h2' is not present after '2' second(s)
+
+2023-12-15 00:53:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-12-15 00:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-12-15 00:53:55 - [TEST_STEP][PASSED] - verifyTextPresent("Please login to make appointment.", false): Text 'Please login to make appointment.' is present on page 
+
+2023-12-15 00:53:59 - [MESSAGE][PASSED] - Text 'Please login to make appointment.' is present on page 
+
+2023-12-15 00:53:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-12-15 00:54:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-12-15 00:54:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-12-15 00:54:07 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2023-12-15 00:54:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-12-15 00:54:14 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2023-12-15 00:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-12-15 00:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-12-15 00:54:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/Make appointment page heading"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/Make appointment page heading' are matched.
+
+2023-12-15 00:54:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/Make appointment page heading' are matched.
+
+2023-12-15 00:54:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-12-15 00:54:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-12-15 00:53:01 - [TEST_SUITE][PASSED] - Assertions in Katalon: Test Cases/Browser Operations in Katalon/Assertions in Katalon]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

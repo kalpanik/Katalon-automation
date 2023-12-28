@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Assertions in Katalon,Chrome 120.0.0.0,,,2023-12-15 00:51:54,2023-12-15 00:52:27,33.507s,FAILED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Assertions in Katalon,Chrome 120.0.0.0,,,2023-12-15 00:52:21,2023-12-15 00:52:27,5.649s,FAILED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,2023-12-15 00:52:21,2023-12-15 00:52:27,5.588s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-15 00:52:27,2023-12-15 00:52:27,0.043s,FAILED

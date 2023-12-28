@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Advanced browser operations,Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:05,2023-12-16 20:49:10,1m - 5.839s,PASSED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Advance browser operations,Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:05,2023-12-16 20:49:10,1m - 5.660s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:05,2023-12-16 20:48:37,31.609s,PASSED
+print(getUrl()),Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:37,2023-12-16 20:48:37,0.643s,PASSED
+getWindowTitle(),Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:37,2023-12-16 20:48:38,0.605s,PASSED
+print(getWindowTitle()),Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:38,2023-12-16 20:48:39,0.575s,PASSED
+currentTab = getWindowIndex(),Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:39,2023-12-16 20:48:40,1.230s,PASSED
+driver = getWebDriver(),Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:40,2023-12-16 20:48:40,0.008s,PASSED
+js = driver,Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:40,2023-12-16 20:48:40,0.010s,PASSED
+"js.executeScript(""window.open();"")",Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:40,2023-12-16 20:48:40,0.721s,PASSED
+switchToWindowIndex(currentTab + 1),Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:40,2023-12-16 20:48:42,1.279s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:42,2023-12-16 20:48:43,1.347s,PASSED
+"takeScreenshotAsCheckpoint(""wikipedia page"")",Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:43,2023-12-16 20:48:49,5.577s,PASSED
+getWindowTitle(),Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:49,2023-12-16 20:48:49,0.616s,PASSED
+getUrl(),Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:49,2023-12-16 20:48:50,0.688s,PASSED
+switchToWindowIndex(currentTab),Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:50,2023-12-16 20:48:51,1.184s,PASSED
+delay(3),Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:51,2023-12-16 20:48:54,3.033s,PASSED
+"switchToWindowTitle(""Wikipedia"")",Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:54,2023-12-16 20:48:57,3.175s,PASSED
+delay(3),Windows - Chrome 117.0.0.0,,,2023-12-16 20:48:57,2023-12-16 20:49:00,3.011s,PASSED
+"switchToWindowUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 117.0.0.0,,,2023-12-16 20:49:00,2023-12-16 20:49:02,2.030s,PASSED
+"closeWindowTitle(""CURA Healthcare Service"")",Windows - Chrome 117.0.0.0,,,2023-12-16 20:49:02,2023-12-16 20:49:05,2.589s,PASSED
+delay(3),Windows - Chrome 117.0.0.0,,,2023-12-16 20:49:05,2023-12-16 20:49:08,3.008s,PASSED
+"closeWindowUrl(""https://www.wikipedia.org/"")",Windows - Chrome 117.0.0.0,,,2023-12-16 20:49:08,2023-12-16 20:49:10,2.408s,PASSED

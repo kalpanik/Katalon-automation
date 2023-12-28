@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Basic browser operations,Windows - Chrome 117.0.0.0,,,2023-12-29 00:06:58,2023-12-29 00:07:49,50.780s,PASSED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations,Windows - Chrome 117.0.0.0,,,2023-12-29 00:06:58,2023-12-29 00:07:49,50.508s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Windows - Chrome 117.0.0.0,,,2023-12-29 00:06:59,2023-12-29 00:07:28,28.696s,PASSED
+maximizeWindow(),Windows - Chrome 117.0.0.0,,,2023-12-29 00:07:28,2023-12-29 00:07:28,0.782s,PASSED
+delay(3),Windows - Chrome 117.0.0.0,,,2023-12-29 00:07:28,2023-12-29 00:07:31,3.028s,PASSED
+refresh(),Windows - Chrome 117.0.0.0,,,2023-12-29 00:07:31,2023-12-29 00:07:32,0.734s,PASSED
+delay(3),Windows - Chrome 117.0.0.0,,,2023-12-29 00:07:32,2023-12-29 00:07:35,3.011s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Windows - Chrome 117.0.0.0,,,2023-12-29 00:07:35,2023-12-29 00:07:38,3.071s,PASSED
+delay(3),Windows - Chrome 117.0.0.0,,,2023-12-29 00:07:38,2023-12-29 00:07:41,3.016s,PASSED
+back(),Windows - Chrome 117.0.0.0,,,2023-12-29 00:07:41,2023-12-29 00:07:42,0.816s,PASSED
+delay(3),Windows - Chrome 117.0.0.0,,,2023-12-29 00:07:42,2023-12-29 00:07:45,3.008s,PASSED
+forward(),Windows - Chrome 117.0.0.0,,,2023-12-29 00:07:45,2023-12-29 00:07:46,0.714s,PASSED
+delay(2),Windows - Chrome 117.0.0.0,,,2023-12-29 00:07:46,2023-12-29 00:07:48,2.020s,PASSED
+closeBrowser(),Windows - Chrome 117.0.0.0,,,2023-12-29 00:07:48,2023-12-29 00:07:49,1.186s,PASSED

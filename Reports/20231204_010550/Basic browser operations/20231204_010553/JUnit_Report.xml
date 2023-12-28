@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic browser operations" time="70.771" tests="1" failures="0" errors="0">
+   <testsuite name="Basic browser operations" tests="1" failures="0" errors="0" time="70.771" skipped="0" timestamp="04-12-2023T01:05:59" hostname="KalpanaKukreja - RC-IND-4BYDRG3" id="Test Suites/Basic browser operations">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20231204_010550\\Basic browser operations\\20231204_010553"/>
+         <property name="logFiles" value="C:\\Users\\KalpanaKukreja\\Documents\\Katalon Courses\\Browser operations in Katalon\\Katalon Automation Courses\\Reports\\20231204_010550\\Basic browser operations\\20231204_010553\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KalpanaKukreja - RC-IND-4BYDRG3"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;requestId&quot;: &quot;e2887e78-197d-4664-bd4f-73494430127b&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;Chromium&quot;,&#xa;  &quot;browserName&quot;: &quot;MicrosoftEdge&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;userId&quot;: 579468,&#xa;    &quot;organizationId&quot;: &quot;167916&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;ms:edgeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;&quot;&#xa;  },&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;msedge&quot;: {&#xa;    &quot;msedgedriverVersion&quot;: &quot;117.0&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\\\Users\\\\ltuser\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir4568_2127963844&quot;&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;117&quot;,&#xa;  &quot;se:cdp&quot;: &quot;ws://172.48.98.172:4444/session/UDYMT-ZWTRV-8RYJJ-N74CV/se/cdp&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webdriver.remote.sessionid&quot;: &quot;UDYMT-ZWTRV-8RYJJ-N74CV&quot;,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Edge Chromium 117"/>
+         <property name="hostAddress" value="192.168.0.221"/>
+         <property name="sessionId" value="UDYMT-ZWTRV-8RYJJ-N74CV"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations" time="70.46" classname="Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations" status="PASSED">
+         <system-out><![CDATA[04-12-2023T01:05:59 - [TEST_CASE][PASSED] - Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations: Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations
+
+04-12-2023T01:05:59 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+04-12-2023T01:06:00 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+04-12-2023T01:06:00 - [MESSAGE][INFO] - User set preference: ['browserName', 'msedge']
+
+04-12-2023T01:06:00 - [MESSAGE][INFO] - User set preference: ['browserVersion', '117']
+
+04-12-2023T01:06:00 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=167916, tunnelId=, usingTunnel=false}']
+
+04-12-2023T01:06:00 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+04-12-2023T01:06:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-12-2023T01:06:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+04-12-2023T01:06:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+04-12-2023T01:06:47 - [MESSAGE][PASSED] - Current window maximized
+
+04-12-2023T01:06:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-12-2023T01:06:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-12-2023T01:06:50 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+04-12-2023T01:06:51 - [MESSAGE][PASSED] - Refresh successfully
+
+04-12-2023T01:06:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-12-2023T01:06:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-12-2023T01:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+04-12-2023T01:06:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+04-12-2023T01:06:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-12-2023T01:07:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-12-2023T01:07:01 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+04-12-2023T01:07:02 - [MESSAGE][PASSED] - Navigate back successfully
+
+04-12-2023T01:07:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+04-12-2023T01:07:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+04-12-2023T01:07:05 - [TEST_STEP][PASSED] - forward(): Navigate forward successfully
+
+04-12-2023T01:07:06 - [MESSAGE][PASSED] - Navigate forward successfully
+
+04-12-2023T01:07:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+04-12-2023T01:07:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+04-12-2023T01:07:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-12-2023T01:07:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-12-2023T01:05:59 - [TEST_SUITE][PASSED] - Basic browser operations: Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

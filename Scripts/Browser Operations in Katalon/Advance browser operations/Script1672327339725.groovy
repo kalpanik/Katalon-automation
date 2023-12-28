@@ -23,7 +23,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.maximizeWindow()
+//WebUI.maximizeWindow()
 
 print(WebUI.getUrl())
 

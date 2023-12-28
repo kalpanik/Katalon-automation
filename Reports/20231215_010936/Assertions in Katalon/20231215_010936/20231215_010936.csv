@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Assertions in Katalon,Chrome 120.0.0.0,,,2023-12-15 01:09:53,2023-12-15 01:10:14,20.699s,PASSED
+,,,,,,,
+Test Cases/Browser Operations in Katalon/Assertions in Katalon,Chrome 120.0.0.0,,,2023-12-15 01:09:54,2023-12-15 01:10:14,20.341s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,2023-12-15 01:09:54,2023-12-15 01:10:05,10.997s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2023-12-15 01:10:05,2023-12-15 01:10:05,0.224s,PASSED
+title = getWindowTitle(),Chrome 120.0.0.0,,,2023-12-15 01:10:05,2023-12-15 01:10:05,0.075s,PASSED
+"verifyMatch(title, ""CURA Healthcare Service"", true)",Chrome 120.0.0.0,,,2023-12-15 01:10:05,2023-12-15 01:10:06,0.100s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""), 2)",Chrome 120.0.0.0,,,2023-12-15 01:10:06,2023-12-15 01:10:06,0.502s,PASSED
+"verifyElementClickable(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,2023-12-15 01:10:06,2023-12-15 01:10:06,0.347s,PASSED
+"verifyElementVisible(findTestObject(""Page_CURA Healthcare Service/Copyright Text""))",Chrome 120.0.0.0,,,2023-12-15 01:10:06,2023-12-15 01:10:07,0.417s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/Make appointment page heading""), 2)",Chrome 120.0.0.0,,,2023-12-15 01:10:07,2023-12-15 01:10:08,0.716s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,2023-12-15 01:10:08,2023-12-15 01:10:08,0.813s,PASSED
+"verifyTextPresent(""Please login to make appointment."", false)",Chrome 120.0.0.0,,,2023-12-15 01:10:08,2023-12-15 01:10:09,0.142s,PASSED
+delay(2),Chrome 120.0.0.0,,,2023-12-15 01:10:09,2023-12-15 01:10:11,2.046s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 120.0.0.0,,,2023-12-15 01:10:11,2023-12-15 01:10:11,0.650s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 120.0.0.0,,,2023-12-15 01:10:11,2023-12-15 01:10:12,0.601s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,2023-12-15 01:10:12,2023-12-15 01:10:13,1.106s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/Make appointment page heading""), ""Make Appointment"")",Chrome 120.0.0.0,,,2023-12-15 01:10:13,2023-12-15 01:10:13,0.313s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-15 01:10:13,2023-12-15 01:10:14,0.735s,PASSED

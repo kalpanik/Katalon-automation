@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-29T00:00:03</date>
+  <millis>1703788203332</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Basic browser operations</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">Basic browser operations</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Basic browser operations</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:03</date>
+  <millis>1703788203347</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = KalpanaKukreja - RC-IND-4BYDRG3</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">KalpanaKukreja - RC-IND-4BYDRG3</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:03</date>
+  <millis>1703788203348</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:03</date>
+  <millis>1703788203348</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.221</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.0.221</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:03</date>
+  <millis>1703788203349</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.6.8.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.6.8.208</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:03</date>
+  <millis>1703788203571</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations</property>
+  <property name="source">C:\Users\KalpanaKukreja\Documents\Katalon Courses\Browser operations in Katalon\Katalon Automation Courses\Test Cases\Browser Operations in Katalon\TC_001 -Basic browser operations.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:03</date>
+  <millis>1703788203957</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;https://katalon-demo-cura.herokuapp.com/&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:04</date>
+  <millis>1703788204256</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;browserName&amp;apos;, &amp;apos;chrome&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:04</date>
+  <millis>1703788204257</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;platformName&amp;apos;, &amp;apos;Android&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:04</date>
+  <millis>1703788204257</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;browserVersion&amp;apos;, &amp;apos;latest&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:04</date>
+  <millis>1703788204258</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;deviceName&amp;apos;, &amp;apos;Samsung Samsung Galaxy Tab S9 Ultra&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:04</date>
+  <millis>1703788204258</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;platformVersion&amp;apos;, &amp;apos;13&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:04</date>
+  <millis>1703788204258</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;samsung_galaxy_tab_s9_ultra&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:04</date>
+  <millis>1703788204259</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;katalon:option&amp;apos;, &amp;apos;{organizationId=167916, tunnelId=, deviceVersion=13, deviceId=samsung_galaxy_tab_s9_ultra, usingTunnel=false}&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:04</date>
+  <millis>1703788204268</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Connecting to remote web server &amp;apos;testcloud.katalon.com/hub&amp;apos; with type &amp;apos;Selenium&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:04</date>
+  <millis>1703788204922</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:47</date>
+  <millis>1703788247079</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>remoteDriverUrl = testcloud.katalon.com/hub</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remoteDriverUrl">testcloud.katalon.com/hub</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:47</date>
+  <millis>1703788247081</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>remoteOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remoteOS">Android</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:47</date>
+  <millis>1703788247102</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>desiredCapabilities = {
+  &amp;quot;appPackage&amp;quot;: &amp;quot;com.android.chrome&amp;quot;,
+  &amp;quot;chromedriverPorts&amp;quot;: [
+    [
+      3220,
+      3230
+    ]
+  ],
+  &amp;quot;testobject_test_report_url&amp;quot;: &amp;quot;https://app.*********.com/tests/00070cb86a45471bb334aceb077ff27d&amp;quot;,
+  &amp;quot;deviceName&amp;quot;: &amp;quot;Samsung Samsung Galaxy Tab S9 Ultra&amp;quot;,
+  &amp;quot;adbHost&amp;quot;: &amp;quot;172.20.0.169&amp;quot;,
+  &amp;quot;***:options&amp;quot;: {
+    &amp;quot;name&amp;quot;: &amp;quot;TestCloud Automated Test Session &amp;quot;,
+    &amp;quot;build&amp;quot;: &amp;quot;TestCloud Automated Test Session &amp;quot;
+  },
+  &amp;quot;browserVersion&amp;quot;: &amp;quot;120.0.0.0&amp;quot;,
+  &amp;quot;webStorageEnabled&amp;quot;: false,
+  &amp;quot;browserName&amp;quot;: &amp;quot;Chrome&amp;quot;,
+  &amp;quot;javascriptEnabled&amp;quot;: true,
+  &amp;quot;remoteAppsCacheLimit&amp;quot;: 0,
+  &amp;quot;systemPort&amp;quot;: 21105,
+  &amp;quot;adbPort&amp;quot;: 17105,
+  &amp;quot;usedCachedDevice&amp;quot;: false,
+  &amp;quot;version&amp;quot;: &amp;quot;latest&amp;quot;,
+  &amp;quot;appActivity&amp;quot;: &amp;quot;com.google.android.apps.chrome.Main&amp;quot;,
+  &amp;quot;proxy&amp;quot;: {
+    &amp;quot;proxyType&amp;quot;: &amp;quot;DIRECT&amp;quot;,
+    &amp;quot;autodetect&amp;quot;: false
+  },
+  &amp;quot;chromedriverChromeMappingFile&amp;quot;: &amp;quot;/root/.testobject_devices/work/chromedriver-mapping.json&amp;quot;,
+  &amp;quot;appiumData&amp;quot;: {
+    &amp;quot;appiumVersion&amp;quot;: &amp;quot;1.22.2&amp;quot;,
+    &amp;quot;automationName&amp;quot;: &amp;quot;UiAutomator2&amp;quot;
+  },
+  &amp;quot;pixelRatio&amp;quot;: 2,
+  &amp;quot;deviceScreenDensity&amp;quot;: 320,
+  &amp;quot;appium:deviceName&amp;quot;: &amp;quot;Samsung_Galaxy_Tab_S9_Ultra_real_us&amp;quot;,
+  &amp;quot;suppressKillServer&amp;quot;: true,
+  &amp;quot;testobject_user_id&amp;quot;: &amp;quot;coty_katalon&amp;quot;,
+  &amp;quot;statBarHeight&amp;quot;: 48,
+  &amp;quot;testobject_device_name&amp;quot;: &amp;quot;Samsung Galaxy Tab S9 Ultra&amp;quot;,
+  &amp;quot;viewportRect&amp;quot;: {
+    &amp;quot;left&amp;quot;: 0,
+    &amp;quot;top&amp;quot;: 48,
+    &amp;quot;width&amp;quot;: 2960,
+    &amp;quot;height&amp;quot;: 1676
+  },
+  &amp;quot;testobject_device_session_id&amp;quot;: &amp;quot;55a4ef78-a61c-48b5-a9fc-aa4977832748&amp;quot;,
+  &amp;quot;uiautomator2ServerInstallTimeout&amp;quot;: 60000,
+  &amp;quot;platform&amp;quot;: &amp;quot;ANDROID&amp;quot;,
+  &amp;quot;deviceUDID&amp;quot;: &amp;quot;R52W705Z17H&amp;quot;,
+  &amp;quot;jobUuid&amp;quot;: &amp;quot;00070cb86a45471bb334aceb077ff27d&amp;quot;,
+  &amp;quot;desired&amp;quot;: {
+    &amp;quot;proxy&amp;quot;: {
+      &amp;quot;proxyType&amp;quot;: &amp;quot;direct&amp;quot;
+    },
+    &amp;quot;browserVersion&amp;quot;: &amp;quot;latest&amp;quot;,
+    &amp;quot;browserName&amp;quot;: &amp;quot;Chrome&amp;quot;,
+    &amp;quot;katalon:option&amp;quot;: {
+      &amp;quot;unlimitedExecutionMinutes&amp;quot;: true,
+      &amp;quot;deviceVersion&amp;quot;: &amp;quot;13&amp;quot;,
+      &amp;quot;deviceId&amp;quot;: &amp;quot;samsung_galaxy_tab_s9_ultra&amp;quot;,
+      &amp;quot;userId&amp;quot;: 579468,
+      &amp;quot;organizationId&amp;quot;: &amp;quot;167916&amp;quot;,
+      &amp;quot;class&amp;quot;: &amp;quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&amp;quot;,
+      &amp;quot;runFromTestCloud&amp;quot;: true,
+      &amp;quot;usingTunnel&amp;quot;: false
+    },
+    &amp;quot;platformName&amp;quot;: &amp;quot;Android&amp;quot;,
+    &amp;quot;***:options&amp;quot;: {
+      &amp;quot;name&amp;quot;: &amp;quot;TestCloud Automated Test Session &amp;quot;,
+      &amp;quot;build&amp;quot;: &amp;quot;TestCloud Automated Test Session &amp;quot;
+    },
+    &amp;quot;***:chromeOptions&amp;quot;: {
+      &amp;quot;androidDevToolsPort&amp;quot;: 22305
+    },
+    &amp;quot;remoteAdbHost&amp;quot;: &amp;quot;172.20.0.169&amp;quot;,
+    &amp;quot;suppressKillServer&amp;quot;: true,
+    &amp;quot;chromedriverPorts&amp;quot;: [
+      [
+        3220,
+        3230
+      ]
+    ],
+    &amp;quot;chromedriverChromeMappingFile&amp;quot;: &amp;quot;/root/.testobject_devices/work/chromedriver-mapping.json&amp;quot;,
+    &amp;quot;adbPort&amp;quot;: 17105,
+    &amp;quot;uiautomator2ServerInstallTimeout&amp;quot;: 60000,
+    &amp;quot;chromedriverExecutableDir&amp;quot;: &amp;quot;/root/.testobject_devices/work/chromedrivers&amp;quot;,
+    &amp;quot;remoteAppsCacheLimit&amp;quot;: 0,
+    &amp;quot;adbHost&amp;quot;: &amp;quot;172.20.0.169&amp;quot;,
+    &amp;quot;systemPort&amp;quot;: 21105,
+    &amp;quot;chromeOptions&amp;quot;: {
+      &amp;quot;w3c&amp;quot;: true
+    },
+    &amp;quot;deviceName&amp;quot;: &amp;quot;Samsung_Galaxy_Tab_S9_Ultra_real_us&amp;quot;
+  },
+  &amp;quot;requestId&amp;quot;: &amp;quot;0c0ac2f6-2da5-4d87-aeb4-a180e5f72f98&amp;quot;,
+  &amp;quot;platformVersion&amp;quot;: &amp;quot;13&amp;quot;,
+  &amp;quot;takesScreenshot&amp;quot;: true,
+  &amp;quot;katalon:option&amp;quot;: {
+    &amp;quot;unlimitedExecutionMinutes&amp;quot;: true,
+    &amp;quot;deviceVersion&amp;quot;: &amp;quot;13&amp;quot;,
+    &amp;quot;deviceId&amp;quot;: &amp;quot;samsung_galaxy_tab_s9_ultra&amp;quot;,
+    &amp;quot;userId&amp;quot;: 579468,
+    &amp;quot;organizationId&amp;quot;: &amp;quot;167916&amp;quot;,
+    &amp;quot;class&amp;quot;: &amp;quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&amp;quot;,
+    &amp;quot;runFromTestCloud&amp;quot;: true,
+    &amp;quot;usingTunnel&amp;quot;: false
+  },
+  &amp;quot;deviceApiLevel&amp;quot;: 33,
+  &amp;quot;deviceManufacturer&amp;quot;: &amp;quot;samsung&amp;quot;,
+  &amp;quot;platformName&amp;quot;: &amp;quot;ANDROID&amp;quot;,
+  &amp;quot;chromedriverExecutableDir&amp;quot;: &amp;quot;/root/.testobject_devices/work/chromedrivers&amp;quot;,
+  &amp;quot;remoteAdbHost&amp;quot;: &amp;quot;172.20.0.169&amp;quot;,
+  &amp;quot;deviceContextId&amp;quot;: &amp;quot;29530512-522a-4b3a-b4d2-c79dd8960533&amp;quot;,
+  &amp;quot;deviceScreenSize&amp;quot;: &amp;quot;2960x1848&amp;quot;,
+  &amp;quot;networkConnectionEnabled&amp;quot;: true,
+  &amp;quot;warnings&amp;quot;: {},
+  &amp;quot;testobject_device&amp;quot;: &amp;quot;Samsung_Galaxy_Tab_S9_Ultra_real_us&amp;quot;,
+  &amp;quot;databaseEnabled&amp;quot;: false,
+  &amp;quot;se:cdp&amp;quot;: &amp;quot;ws://172.48.62.105:4444/session/5352e9a2-f62a-4407-986f-cb3de7dcbf4b/se/cdp&amp;quot;,
+  &amp;quot;testobject_test_report_api_url&amp;quot;: &amp;quot;https://***.*********.com/v1/rdc/jobs/00070cb86a45471bb334aceb077ff27d&amp;quot;,
+  &amp;quot;locationContextEnabled&amp;quot;: false,
+  &amp;quot;***:chromeOptions&amp;quot;: {
+    &amp;quot;androidDevToolsPort&amp;quot;: 22305
+  },
+  &amp;quot;deviceModel&amp;quot;: &amp;quot;SM-X910&amp;quot;,
+  &amp;quot;chromeOptions&amp;quot;: {
+    &amp;quot;w3c&amp;quot;: true
+  }
+}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="desiredCapabilities">{
+  &quot;appPackage&quot;: &quot;com.android.chrome&quot;,
+  &quot;chromedriverPorts&quot;: [
+    [
+      3220,
+      3230
+    ]
+  ],
+  &quot;testobject_test_report_url&quot;: &quot;https://app.*********.com/tests/00070cb86a45471bb334aceb077ff27d&quot;,
+  &quot;deviceName&quot;: &quot;Samsung Samsung Galaxy Tab S9 Ultra&quot;,
+  &quot;adbHost&quot;: &quot;172.20.0.169&quot;,
+  &quot;***:options&quot;: {
+    &quot;name&quot;: &quot;TestCloud Automated Test Session &quot;,
+    &quot;build&quot;: &quot;TestCloud Automated Test Session &quot;
+  },
+  &quot;browserVersion&quot;: &quot;120.0.0.0&quot;,
+  &quot;webStorageEnabled&quot;: false,
+  &quot;browserName&quot;: &quot;Chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;remoteAppsCacheLimit&quot;: 0,
+  &quot;systemPort&quot;: 21105,
+  &quot;adbPort&quot;: 17105,
+  &quot;usedCachedDevice&quot;: false,
+  &quot;version&quot;: &quot;latest&quot;,
+  &quot;appActivity&quot;: &quot;com.google.android.apps.chrome.Main&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;chromedriverChromeMappingFile&quot;: &quot;/root/.testobject_devices/work/chromedriver-mapping.json&quot;,
+  &quot;appiumData&quot;: {
+    &quot;appiumVersion&quot;: &quot;1.22.2&quot;,
+    &quot;automationName&quot;: &quot;UiAutomator2&quot;
+  },
+  &quot;pixelRatio&quot;: 2,
+  &quot;deviceScreenDensity&quot;: 320,
+  &quot;appium:deviceName&quot;: &quot;Samsung_Galaxy_Tab_S9_Ultra_real_us&quot;,
+  &quot;suppressKillServer&quot;: true,
+  &quot;testobject_user_id&quot;: &quot;coty_katalon&quot;,
+  &quot;statBarHeight&quot;: 48,
+  &quot;testobject_device_name&quot;: &quot;Samsung Galaxy Tab S9 Ultra&quot;,
+  &quot;viewportRect&quot;: {
+    &quot;left&quot;: 0,
+    &quot;top&quot;: 48,
+    &quot;width&quot;: 2960,
+    &quot;height&quot;: 1676
+  },
+  &quot;testobject_device_session_id&quot;: &quot;55a4ef78-a61c-48b5-a9fc-aa4977832748&quot;,
+  &quot;uiautomator2ServerInstallTimeout&quot;: 60000,
+  &quot;platform&quot;: &quot;ANDROID&quot;,
+  &quot;deviceUDID&quot;: &quot;R52W705Z17H&quot;,
+  &quot;jobUuid&quot;: &quot;00070cb86a45471bb334aceb077ff27d&quot;,
+  &quot;desired&quot;: {
+    &quot;proxy&quot;: {
+      &quot;proxyType&quot;: &quot;direct&quot;
+    },
+    &quot;browserVersion&quot;: &quot;latest&quot;,
+    &quot;browserName&quot;: &quot;Chrome&quot;,
+    &quot;katalon:option&quot;: {
+      &quot;unlimitedExecutionMinutes&quot;: true,
+      &quot;deviceVersion&quot;: &quot;13&quot;,
+      &quot;deviceId&quot;: &quot;samsung_galaxy_tab_s9_ultra&quot;,
+      &quot;userId&quot;: 579468,
+      &quot;organizationId&quot;: &quot;167916&quot;,
+      &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+      &quot;runFromTestCloud&quot;: true,
+      &quot;usingTunnel&quot;: false
+    },
+    &quot;platformName&quot;: &quot;Android&quot;,
+    &quot;***:options&quot;: {
+      &quot;name&quot;: &quot;TestCloud Automated Test Session &quot;,
+      &quot;build&quot;: &quot;TestCloud Automated Test Session &quot;
+    },
+    &quot;***:chromeOptions&quot;: {
+      &quot;androidDevToolsPort&quot;: 22305
+    },
+    &quot;remoteAdbHost&quot;: &quot;172.20.0.169&quot;,
+    &quot;suppressKillServer&quot;: true,
+    &quot;chromedriverPorts&quot;: [
+      [
+        3220,
+        3230
+      ]
+    ],
+    &quot;chromedriverChromeMappingFile&quot;: &quot;/root/.testobject_devices/work/chromedriver-mapping.json&quot;,
+    &quot;adbPort&quot;: 17105,
+    &quot;uiautomator2ServerInstallTimeout&quot;: 60000,
+    &quot;chromedriverExecutableDir&quot;: &quot;/root/.testobject_devices/work/chromedrivers&quot;,
+    &quot;remoteAppsCacheLimit&quot;: 0,
+    &quot;adbHost&quot;: &quot;172.20.0.169&quot;,
+    &quot;systemPort&quot;: 21105,
+    &quot;chromeOptions&quot;: {
+      &quot;w3c&quot;: true
+    },
+    &quot;deviceName&quot;: &quot;Samsung_Galaxy_Tab_S9_Ultra_real_us&quot;
+  },
+  &quot;requestId&quot;: &quot;0c0ac2f6-2da5-4d87-aeb4-a180e5f72f98&quot;,
+  &quot;platformVersion&quot;: &quot;13&quot;,
+  &quot;takesScreenshot&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;deviceVersion&quot;: &quot;13&quot;,
+    &quot;deviceId&quot;: &quot;samsung_galaxy_tab_s9_ultra&quot;,
+    &quot;userId&quot;: 579468,
+    &quot;organizationId&quot;: &quot;167916&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;deviceApiLevel&quot;: 33,
+  &quot;deviceManufacturer&quot;: &quot;samsung&quot;,
+  &quot;platformName&quot;: &quot;ANDROID&quot;,
+  &quot;chromedriverExecutableDir&quot;: &quot;/root/.testobject_devices/work/chromedrivers&quot;,
+  &quot;remoteAdbHost&quot;: &quot;172.20.0.169&quot;,
+  &quot;deviceContextId&quot;: &quot;29530512-522a-4b3a-b4d2-c79dd8960533&quot;,
+  &quot;deviceScreenSize&quot;: &quot;2960x1848&quot;,
+  &quot;networkConnectionEnabled&quot;: true,
+  &quot;warnings&quot;: {},
+  &quot;testobject_device&quot;: &quot;Samsung_Galaxy_Tab_S9_Ultra_real_us&quot;,
+  &quot;databaseEnabled&quot;: false,
+  &quot;se:cdp&quot;: &quot;ws://172.48.62.105:4444/session/5352e9a2-f62a-4407-986f-cb3de7dcbf4b/se/cdp&quot;,
+  &quot;testobject_test_report_api_url&quot;: &quot;https://***.*********.com/v1/rdc/jobs/00070cb86a45471bb334aceb077ff27d&quot;,
+  &quot;locationContextEnabled&quot;: false,
+  &quot;***:chromeOptions&quot;: {
+    &quot;androidDevToolsPort&quot;: 22305
+  },
+  &quot;deviceModel&quot;: &quot;SM-X910&quot;,
+  &quot;chromeOptions&quot;: {
+    &quot;w3c&quot;: true
+  }
+}</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:47</date>
+  <millis>1703788247107</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 5352e9a2-f62a-4407-986f-cb3de7dcbf4b</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">5352e9a2-f62a-4407-986f-cb3de7dcbf4b</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:47</date>
+  <millis>1703788247888</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 120.0.0.0</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 120.0.0.0</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:47</date>
+  <millis>1703788247888</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:47</date>
+  <millis>1703788247889</millis>
+  <sequence>25</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:47</date>
+  <millis>1703788247890</millis>
+  <sequence>26</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:51</date>
+  <millis>1703788251623</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://katalon-demo-cura.herokuapp.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:00:51</date>
+  <millis>1703788251623</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;https://katalon-demo-cura.herokuapp.com/&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:51</date>
+  <millis>1703788251623</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:52</date>
+  <millis>1703788252400</millis>
+  <sequence>32</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:00:52</date>
+  <millis>1703788252401</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:52</date>
+  <millis>1703788252401</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:55</date>
+  <millis>1703788255445</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:00:55</date>
+  <millis>1703788255446</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:55</date>
+  <millis>1703788255447</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : refresh()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:56</date>
+  <millis>1703788256678</millis>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Refresh successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.RefreshKeyword.refresh</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:00:56</date>
+  <millis>1703788256680</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : refresh()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:56</date>
+  <millis>1703788256681</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2023-12-29T00:00:59</date>
+  <millis>1703788259696</millis>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:00:59</date>
+  <millis>1703788259697</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:00:59</date>
+  <millis>1703788259698</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;Page_CURA Healthcare Service/a_Make Appointment&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2023-12-29T00:01:02</date>
+  <millis>1703788262909</millis>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_CURA Healthcare Service/a_Make Appointment&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:01:02</date>
+  <millis>1703788262910</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;Page_CURA Healthcare Service/a_Make Appointment&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:02</date>
+  <millis>1703788262912</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2023-12-29T00:01:05</date>
+  <millis>1703788265920</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:01:05</date>
+  <millis>1703788265920</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:05</date>
+  <millis>1703788265921</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : back()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">35</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2023-12-29T00:01:07</date>
+  <millis>1703788267170</millis>
+  <sequence>64</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate back successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.BackKeyword.back</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:01:07</date>
+  <millis>1703788267173</millis>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : back()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:07</date>
+  <millis>1703788267173</millis>
+  <sequence>66</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">37</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2023-12-29T00:01:10</date>
+  <millis>1703788270180</millis>
+  <sequence>68</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:01:10</date>
+  <millis>1703788270181</millis>
+  <sequence>69</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:10</date>
+  <millis>1703788270182</millis>
+  <sequence>70</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : forward()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2023-12-29T00:01:11</date>
+  <millis>1703788271218</millis>
+  <sequence>72</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate forward successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ForwardKeyword.forward</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:01:11</date>
+  <millis>1703788271220</millis>
+  <sequence>73</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : forward()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:11</date>
+  <millis>1703788271221</millis>
+  <sequence>74</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">41</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2023-12-29T00:01:13</date>
+  <millis>1703788273241</millis>
+  <sequence>76</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:01:13</date>
+  <millis>1703788273243</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:13</date>
+  <millis>1703788273243</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">43</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2023-12-29T00:01:14</date>
+  <millis>1703788274995</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2023-12-29T00:01:14</date>
+  <millis>1703788274995</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:14</date>
+  <millis>1703788274995</millis>
+  <sequence>82</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:14</date>
+  <millis>1703788274997</millis>
+  <sequence>83</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Browser Operations in Katalon/TC_001 -Basic browser operations</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-12-29T00:01:15</date>
+  <millis>1703788275001</millis>
+  <sequence>84</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:15</date>
+  <millis>1703788275316</millis>
+  <sequence>210</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\KalpanaKukreja\Documents\Katalon Courses\Browser operations in Katalon\Katalon Automation Courses\Reports\20231228_235817\Basic browser operations\20231228_235824...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:15</date>
+  <millis>1703788275712</millis>
+  <sequence>211</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:15</date>
+  <millis>1703788275713</millis>
+  <sequence>212</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\KalpanaKukreja\Documents\Katalon Courses\Browser operations in Katalon\Katalon Automation Courses\Reports\20231228_235817\Basic browser operations\20231228_235824...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:15</date>
+  <millis>1703788275733</millis>
+  <sequence>213</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:16</date>
+  <millis>1703788276143</millis>
+  <sequence>215</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-12-29T00:01:16</date>
+  <millis>1703788276190</millis>
+  <sequence>216</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Basic browser operations</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>
