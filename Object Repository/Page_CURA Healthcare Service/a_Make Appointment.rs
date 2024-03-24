@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Make Appointment</name>
    <tag></tag>
-   <elementGuidId>8dd4c282-f05a-4e9b-bcbd-e0150683019e</elementGuidId>
+   <elementGuidId>59bcf97a-fd6b-48d3-beb0-123e8cda8bf2</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#btn-make-appointment</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='btn-make-appointment']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btn-make-appointment</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

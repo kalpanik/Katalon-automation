@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_HomeMy account</name>
+   <tag></tag>
+   <elementGuidId>731c0544-884b-4ec7-b704-6a36a4fbe1d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>nav.woocommerce-breadcrumb</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page']/header/nav</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>nav</value>
+      <webElementGuid>16e2add9-d061-4d53-833d-c2085754beae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>woocommerce-breadcrumb</value>
+      <webElementGuid>db76612c-8eef-46a1-9d77-1b53bd255524</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Home  /  My account</value>
+      <webElementGuid>402977af-ac6d-42f7-a59a-d805e60ce42b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page&quot;)/header[@class=&quot;page-header-block&quot;]/nav[@class=&quot;woocommerce-breadcrumb&quot;]</value>
+      <webElementGuid>3f4288ab-9e39-4b8b-9584-0d1dc0eeb684</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page']/header/nav</value>
+      <webElementGuid>bc168d3b-7e51-4191-831a-878e023df46c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[1]/following::nav[1]</value>
+      <webElementGuid>c80f161b-b5aa-4485-bde0-db5ded2bb233</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sample Page'])[1]/following::nav[1]</value>
+      <webElementGuid>bbc6a1d3-dfcc-4a53-9ea2-06410eea5008</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My account'])[2]/preceding::nav[1]</value>
+      <webElementGuid>990a8ce3-802c-4b19-a0ee-53392df3f28e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/header/nav</value>
+      <webElementGuid>6c5d3cdb-6614-45d3-b828-0cc1f9a8f0c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//nav[(text() = 'Home  /  My account' or . = 'Home  /  My account')]</value>
+      <webElementGuid>20ed89dd-96f8-40b5-95ca-22f411e3b63c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

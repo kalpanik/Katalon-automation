@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Katalon Automation Courses</name>
+   <name>Variables in Katalon</name>
    <tag></tag>
-   <UUID>a3bce736-5122-4ead-9474-0d8ca31b7722</UUID>
+   <UUID>dc42e815-936b-404c-a0da-4d3efe098029</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\KalpanaKukreja\Documents\Katalon Courses\Browser operations in Katalon\Katalon Automation Courses\Katalon Automation Courses.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\KalpanaKukreja\Katalon Studio\Katalon Automation Courses\Variables in Katalon.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_HomeClothingHoodiesHappy Ninja</name>
+   <tag></tag>
+   <elementGuidId>3b2132d9-ab59-4d23-bb8b-a053b1197b4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>nav.woocommerce-breadcrumb</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page']/header/nav</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>nav</value>
+      <webElementGuid>aaf44688-65e5-4e4b-82cb-571f9ec9b11a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>woocommerce-breadcrumb</value>
+      <webElementGuid>5db0a713-cbf6-47ce-b6e5-8e7fd7b723e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Home  /  Clothing  /  Hoodies  /  Happy Ninja</value>
+      <webElementGuid>99877b28-8f92-4072-9e5c-6299b437b21c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page&quot;)/header[@class=&quot;page-header-block&quot;]/nav[@class=&quot;woocommerce-breadcrumb&quot;]</value>
+      <webElementGuid>3dc0e1e4-6e6d-47b0-baa9-fa203a784dfc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page']/header/nav</value>
+      <webElementGuid>f0d56bcd-4a5b-40c2-b641-60ea7ceb2d4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[1]/following::nav[1]</value>
+      <webElementGuid>07a6e835-d965-4de6-9166-2318c6332cd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sample Page'])[1]/following::nav[1]</value>
+      <webElementGuid>52abfca6-e2be-4454-91ab-ef1184ec3464</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/header/nav</value>
+      <webElementGuid>43844778-3dbe-46c2-b0f2-2950aaa2b137</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//nav[(text() = 'Home  /  Clothing  /  Hoodies  /  Happy Ninja' or . = 'Home  /  Clothing  /  Hoodies  /  Happy Ninja')]</value>
+      <webElementGuid>e3471219-9436-4cd9-af14-e2ecbcd2916b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

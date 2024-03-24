@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_001-Working with groovy variable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc6a28a5-cef6-4151-ba45-1009f010414b</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe,\r\nAdmin\r\n'</defaultValue>
+      <description></description>
+      <id>c909f06b-9609-4706-bbce-e67a8b1e29b4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

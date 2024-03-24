@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Log in to Katalon Academy</name>
+   <tag></tag>
+   <elementGuidId>9d700ae0-832c-46ce-88c0-f562f70abad4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='modal-login']/div/div/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>a30758af-ea89-4c73-be4e-bd3bccb8961f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>93532a11-70c9-4ce1-9bed-059503a22680</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log in to Katalon Academy</value>
+      <webElementGuid>7b5e5157-d4ba-4c2c-bf17-850ce17ce200</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-login&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;skillate-signin-popup-inner modal-content&quot;]/div[@class=&quot;skillate-login-body modal-body&quot;]/div[@class=&quot;skillate-signin-modal-form&quot;]/p[@class=&quot;title&quot;]</value>
+      <webElementGuid>b1c437d9-8810-4a4a-8b6b-cb6ca4224c8b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modal-login']/div/div/div/div/p</value>
+      <webElementGuid>5de3b957-e137-49ca-a5ad-07869bc4d6a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Security'])[1]/following::p[2]</value>
+      <webElementGuid>70333db5-a1be-4e98-aef4-e6d97b409b16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='License Agreement'])[1]/following::p[2]</value>
+      <webElementGuid>2b4db979-2a8c-4b2c-bf7d-524b87f9dfb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up now'])[1]/preceding::p[1]</value>
+      <webElementGuid>ed652d83-02bb-4c8d-a2e3-25ac7e47718e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Katalon Certification Program.'])[1]/preceding::p[3]</value>
+      <webElementGuid>b1a80164-de62-4b08-b6a0-6f1d866d1ae3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log in to Katalon Academy']/parent::*</value>
+      <webElementGuid>64bbb466-1798-4897-9306-18a2d1957a31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/p</value>
+      <webElementGuid>ed3f3b73-a2c5-4044-8cbd-571b2c62258e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Log in to Katalon Academy' or . = 'Log in to Katalon Academy')]</value>
+      <webElementGuid>41c0d148-29c9-4c7b-a9f6-bba267f2f509</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
