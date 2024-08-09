@@ -15,12 +15,28 @@
       <guid>df29b130-1d55-4aaf-939b-93ad1a6625c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>'John Doe,\r\nAdmin\r\n'</defaultValue>
+         <description></description>
+         <id>c909f06b-9609-4706-bbce-e67a8b1e29b4</id>
+         <masked>false</masked>
+         <name>username</name>
+      </iterationNameVariable>
       <testCaseId>Test Cases/Variables in Katalon/TC_001-Working with groovy variable</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>eccbad08-de8c-4e14-a07b-bf7ea6855a44</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/login data</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>eccbad08-de8c-4e14-a07b-bf7ea6855a44</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
          <variableId>c909f06b-9609-4706-bbce-e67a8b1e29b4</variableId>
       </variableLink>
    </testCaseLink>

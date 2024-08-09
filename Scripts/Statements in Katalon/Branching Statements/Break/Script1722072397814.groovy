@@ -17,20 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.navigateToUrl('https://cms.demo.katalon.com/')
+WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'ThisIsNotAPassword')
+WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
 
-WebUI.click(findTestObject('null'))
+List<String>elements = ['elem1', 'elem2', 'Make Appointment', 'Elem 3']
 
-WebUI.click(findTestObject('null'))
+for(String element : elements)
+	
+{
+	if(element == 'Make Appointment')
+		
+	{
+		WebUI.comment('Target element found: '+element)
+		break
+		
+	}
+	
+	WebUI.comment('current element: '+element)
+}
 
-WebUI.setText(findTestObject('null'), 
-    '2')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
+WebUI.closeBrowser()

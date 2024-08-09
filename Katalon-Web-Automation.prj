@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>Variables in Katalon</name>
+   <name>Katalon-Web-Automation</name>
    <tag></tag>
    <UUID>dc42e815-936b-404c-a0da-4d3efe098029</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\KalpanaKukreja\Katalon Studio\Katalon Automation Courses\Variables in Katalon.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\KalpanaKukreja\Katalon Studio\Katalon-Web-Automation\Katalon-Web-Automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

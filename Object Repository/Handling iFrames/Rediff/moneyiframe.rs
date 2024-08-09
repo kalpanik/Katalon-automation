@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>moneyiframe</name>
+   <tag></tag>
+   <elementGuidId>6f2149ae-059d-432d-806b-aec82563f21f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'moneyiframe']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>moneyiframe</value>
+      <webElementGuid>f7ac7d75-5cb0-4ec7-9310-e96cffb660ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>moneyiframe</value>
+      <webElementGuid>b98bac08-c9fe-4d80-932c-f10a5e1f36a0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
